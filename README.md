@@ -4,6 +4,13 @@
 
 Android Client for https://opentdb.com/ API. Having Multiple categories Trivia Questions.
 
+You can explore this Android project to learn.
+
+* Create Custom Grid View Adapter.
+* Volley Request.
+* Using Custom fonts in Android App.
+
+
 
 <a href='https://play.google.com/store/apps/details?id=com.appsvatika.quizapp'><img src='https://github.com/AppsVatika/QuizApp/blob/master/google-play.png' alt='Get it on Google Play' height='45' /></a>
 
