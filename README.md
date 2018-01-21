@@ -21,6 +21,8 @@ You can explore this Android project to learn.
 
 </div>
 
+Icon made by Authors from www.flaticon.com Thanks to Them.
+
 License
 -------
     Copyright 2017 AppsVatika
