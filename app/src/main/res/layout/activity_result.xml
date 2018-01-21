@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity" 
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:singleLine="true"
+        android:text="Large Text"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:singleLine="true"
+        android:text="Large Text"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+       android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:singleLine="true"
+        android:text="Large Text"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp" >
+
+        <Button
+            android:id="@+id/rcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+android:background="@drawable/button_r"
+            android:textColor="#ffffff"
+            android:alpha="0.5"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/rcontinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:background="@drawable/button_r"
+            android:alpha="0.5"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

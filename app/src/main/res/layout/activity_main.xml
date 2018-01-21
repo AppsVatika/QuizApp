@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/textViewm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose question categories."
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+
+            />
+
+        <GridView
+            android:id="@+id/gridView1"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:numColumns="3"
+            android:stretchMode="spacingWidthUniform"
+            android:scrollbarThumbVertical="@android:color/white"
+
+            android:scrollbarSize="2dp"
+         >
+        </GridView>
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3635689467443264/2400657702">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+

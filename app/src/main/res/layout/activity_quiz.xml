@@ -1,0 +1,147 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:orientation="horizontal"
+         android:layout_margin="2dp">
+
+
+         <ImageButton
+             android:id="@+id/star"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+             android:background="@null"
+           android:src="@drawable/star"
+           />
+
+         <ImageButton
+             android:id="@+id/share"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+             android:background="@null"
+            android:src="@drawable/share"
+             />
+
+     </RelativeLayout>
+
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_gravity="top"
+         android:layout_margin="2dp"
+         android:layout_weight="0.7"
+         android:orientation="vertical"
+         android:padding="2dp">
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+
+             android:text="Loading......"
+             android:textColor="#f7f9f6"
+             android:textSize="25sp"
+             android:textStyle="italic" />
+
+     </LinearLayout>
+
+
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+          android:gravity="bottom"
+         android:layout_gravity="bottom"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/opt1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Option A"
+             android:alpha="0.5"
+             android:background="@drawable/button_b"
+               android:padding="5dp"
+            android:layout_gravity="center"
+             android:textSize="20sp"
+             android:textStyle="italic"
+             android:textColor="#ffffff"
+
+             />
+         <Button
+             android:id="@+id/opt2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Option B"
+             android:layout_gravity="center"
+              android:layout_marginTop="2dp"
+             android:background="@drawable/button_b"
+             android:alpha="0.5"
+             android:padding="5dp"
+             android:textSize="20sp"
+             android:textStyle="italic"
+             android:textColor="#ffffff"/>
+         <Button
+             android:id="@+id/opt3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Option C"
+             android:alpha="0.5"
+             android:padding="5dp"
+             android:layout_marginTop="2dp"
+             android:layout_gravity="center"
+             android:background="@drawable/button_b"
+
+             android:textSize="20sp"
+             android:textStyle="italic"
+             android:textColor="#ffffff"
+
+             />
+         <Button
+             android:id="@+id/opt4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Option D"
+             android:alpha="0.5"
+             android:layout_marginTop="2dp"
+             android:layout_gravity="center"
+             android:background="@drawable/button_b"
+             android:padding="5dp"
+             android:textSize="20sp"
+             android:textStyle="italic"
+             android:textColor="#ffffff"
+
+             />
+
+
+
+
+
+     </LinearLayout>
+
+     <com.google.android.gms.ads.AdView
+         xmlns:ads="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/adViewq"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         ads:adSize="BANNER"
+         ads:adUnitId="ca-app-pub-3635689467443264/1825942636">
+     </com.google.android.gms.ads.AdView>
+
+
+
+     </LinearLayout>
